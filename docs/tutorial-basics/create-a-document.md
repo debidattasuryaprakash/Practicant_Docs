@@ -12,31 +12,31 @@ Documents are **groups of pages** connected through:
 
 ## Create your first Doc
 
-Create a Markdown file at `docs/hello.md`:
+Create a Markdown file at `documentation/docs_name.md`:
 
-```md title="docs/hello.md"
+```md title="documentation/docs_name.md"
 # Hello
 
-This is my **first Docusaurus document**!
+This is my **first Practicant document**!
 ```
 
-A new document is now available at [http://localhost:3000/docs/hello](http://localhost:3000/docs/hello).
+A new document is now available at [http://localhost:3000/documentation/docs_name](http://localhost:3000/documentation/docs_name).
 
 ## Configure the Sidebar
 
-Docusaurus automatically **creates a sidebar** from the `docs` folder.
+Practicant automatically **creates a sidebar** from the `documentation` folder.
 
 Add metadata to customize the sidebar label and position:
 
-```md title="docs/hello.md" {1-4}
+```md title="documentation/docs_name.md" {1-4}
 ---
-sidebar_label: 'Hi!'
+sidebar_label: 'Documentation_Details'
 sidebar_position: 3
 ---
 
 # Hello
 
-This is my **first Docusaurus document**!
+This is my **first Practicant document**!
 ```
 
 It is also possible to create your sidebar explicitly in `sidebars.js`:
